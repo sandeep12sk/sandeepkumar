@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="sandeep.css">
 </head>
 <style>
+
   .nav-menu {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -99,9 +100,13 @@
 }
 .black {
     background-color: rgba(15, 15, 15, 0.6);
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 .black:hover {
     box-shadow: 0px 0px 20px red;
+    background-color: rgba(51, 5, 5, 0.6);
+    
 }
 .white {
     background-image: linear-gradient(rgba(255, 0, 0, .6), rgba(0, 0, 255, .6));
@@ -167,7 +172,7 @@ background-image: linear-gradient(rgba(138, 1, 1, 0.6), rgba(4, 133, 156, 0.6));
 }
 #im {
     /* position: relative; */
-    color: rgb(197, 70, 70);
+ 
     /* -webkit-text-stroke: 0.3 red; */
     animation: sandeep 7s infinite;
 }
@@ -210,117 +215,6 @@ background-image: linear-gradient(rgba(138, 1, 1, 0.6), rgba(4, 133, 156, 0.6));
 
     90% {
         color: rgb(198, 10, 255);
-    }
-}
-#s {
-    animation: S 4S  infinite;
-}
-@keyframes S {
-
-    90% {
-        color: blue;
-    }
-}
-#a {
-    animation: a 4S infinite;
-    animation-delay: .25s;
-}
-@keyframes a {
-   90% {
-        color: rgb(255, 166, 0);
-    }
-}
-#n {
-    animation: n 4S infinite;
-    animation-delay: .5s;
-}
-@keyframes n {
-    90%
-     {
-        color: rgb(255, 0, 0);
-    }
-}
-#d {
-    animation: d 4S infinite;
-    animation-delay: .75s;
-}
-@keyframes d {
-    90% {
-        color: rgb(51, 255, 0);
-    }
-}
-#e1 {
-    animation: e1 4s infinite;
-    animation-delay: 1s;
-}
-@keyframes e1 {
-    90%
-     {
-        color: rgb(0, 140, 255);
-    }
-}
-#e {
-    animation: e 4s infinite;
-    animation-delay: 1.25s;
-}
-@keyframes e {
-    90%{
-        color: rgb(255, 251, 0);
-    }
-}
-#p {
-    animation: p 4s infinite;
-    animation-delay: 1.5s;
-}
-@keyframes p {
-    90% {
-        color: rgb(255, 0, 221);
-    }
-}
-#k {
-    animation: k 4s infinite;
-    animation-delay: 1.75s;
-}
-@keyframes k {
-    90% {
-        color: rgb(4, 0, 255);
-    }
-}
-#u {
-    animation: u 4s infinite;
-    animation-delay: 2s;
-}
-@keyframes u {
-    90%{
-        color: rgb(51, 255, 0);
-    }
-}
-#m {
-    animation: m 4s infinite;
-    animation-delay: 2.25s;
-}
-@keyframes m {
-    90%{
-        color: rgb(255, 0, 0);
-    }
-}
-#a2 {
-    animation: a2 4s infinite;
-    animation-delay: 2.5s;
-}
-@keyframes a2 {
-
-    90% {
-        color: rgb(255, 251, 0);
-    }
-}
-#r {
-    animation: r 4s infinite;
-    animation-delay: 2.75s;
-}
-@keyframes r {
-    90% {
-        color: rgb(255, 0, 221);
     }
 }
 .home-sk-heading span {
@@ -461,25 +355,10 @@ background-image: linear-gradient(rgba(138, 1, 1, 0.6), rgba(4, 133, 156, 0.6));
                 <h2  style="font-size:800%; font-family: 'Times New Roman', Times, serif;">Hi</h2>
                 <div class="d-flex justify-content-center" style="font-family: 'Times New Roman', Times, serif;">
                   <div class="home-sk-heading  " style=" font-size:3.6rem"><div class="d-inline-block" id="im">I'm Sandeep Kumar</div>
-                  <!-- <div class="d-inline-block" style="width: 224px; height: 40px;"> 
-                  <span  id="s">S</span>
-                  <span  id="a">a</span>
-                  <span  id="n">n</span>
-                  <span  id="d">d</span>
-                  <span  id="e1">e</span>
-                  <span  id="e">e</span>
-                  <span  id="p">p</span>
-                  </div>
-                 <div class="d-inline-block" style="width: 164px; height:40px;">
-                  <span id="k">K</span>
-                  <span id="u">u</span>
-                  <span id="m">m</span>
-                  <span id="a2">a</span>
-                  <span id="r">r</span>
-                 </div>  -->
+                 
                 </div>
                 </div>
-                <h2 style="font-size:400%; font-family: 'Times New Roman', Times, serif;">Web developer</h2>
+                <h2 style="font-size:300%; font-family: 'Times New Roman', Times, serif;">Web developer</h2>
                 <p class="mt-3">
                   Fornt End & Back End Developer
                 </p>
